@@ -34,8 +34,7 @@ public class InfluxDBTest {
         // influxDB.createDB(database);
     }
 
-
-    @Test
+//    @Test
     public void testInsert() {// 测试数据插入
         SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
         for (int j = 0; j < 100; j++) {
